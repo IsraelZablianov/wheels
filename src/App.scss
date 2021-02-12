@@ -1,0 +1,67 @@
+@import "styles/variables";
+
+.wheels-app {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    align-items: center;
+    height: 15%;
+
+    .left-side {
+        img {
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            border: 1px solid gray;
+            display: flex;
+        }
+    }
+
+    .right-side {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        .logo {
+            color: white;
+            font-weight: 700;
+            font-size: 45px;
+        }
+
+        .greeding {
+            color: white;
+        }
+    }
+}
+
+.claims {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+
+    .claim {
+        width: 70%;
+        background-color: #6bb5ff;
+        display: flex;
+        color: white;
+        font-size: 40px;
+        padding: 20px;
+        font-weight: 500;
+        border-radius: 15px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-bottom: 5px solid #a4d1ff;
+        margin: 30px;
+    }
+}
+
+.footer {
+}
